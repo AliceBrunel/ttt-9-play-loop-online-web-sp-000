@@ -36,15 +36,10 @@ def turn(board)
 end
 
 # Define your play method below
-turn = 1
 
-def play(string)
-  until turn == 9
+def play(board)
+  until turn(board) == 9
   turn(string)
   turn += 1
   end
-end
-
-def turn(string)
-  puts "Turn #{turn}"
 end
