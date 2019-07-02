@@ -46,5 +46,5 @@ def play(string)
 end
 
 def turn(string)
-  puts "Turn #{turn}"
+  puts "Turn"
 end
