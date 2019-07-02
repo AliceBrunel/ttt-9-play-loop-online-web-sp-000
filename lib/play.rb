@@ -37,6 +37,7 @@ end
 
 # Define your play method below
 turn = 1
+
 def play(string)
   until turn == 9
   turn(string)
