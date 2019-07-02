@@ -43,3 +43,5 @@ def play(string)
   turn += 1
   end
 end
+
+turn(string)
