@@ -44,4 +44,6 @@ def play(string)
   end
 end
 
-turn(string)
+def turn(string)
+  puts "Turn"
+end
